@@ -96,7 +96,7 @@ class CalendarPane extends BorderPane {
 
     dayPane.setHgap(10);
     dayPane.setVgap(10);
-    for (int i = 0; i > 49; i++) {
+    for (int i = 0; i < 49; i++) {
       dayPane.add(lblDay[i], i % 7, i / 7);
     }
 
